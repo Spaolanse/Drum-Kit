@@ -30,7 +30,6 @@ document.querySelectorAll(".drum")[6].addEventListener("click", function(){
 document.addEventListener("keypress", function(event){
 
     Sound(event.key);
-
 });
 
 function Sound(key) {
