@@ -18,8 +18,8 @@ for (var i = 0; i < drumLength; i++) {
 };
 
 document.addEventListener("keypress", function(event){
-    sound(event.key);
-    animation(event.key);
+    sound(event.key.toLowerCase());
+    animation(event.key.toLowerCase());
 });
 
 function sound(key) {
